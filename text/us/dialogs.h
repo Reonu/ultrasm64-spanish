@@ -2074,10 +2074,14 @@ so come back later.\n\
 //--Koopa the Quick"))
 
 DEFINE_DIALOG(DIALOG_167, 1, 4, 30, 200, _("\
-Princess Toadstool's\n\
-castle is just ahead.\n\
+Soy Daniel León y esto\n\
+es una prueba para\n\
+José Isern González\n\
 \n\
-\n\
+En mi trabajo para el TFG\n\
+traduciré este juego\n\
+y documentaré el proceso.\n\
+:)\n\
 Press [A] to jump, [Z] to\n\
 crouch, and [B] to punch,\n\
 read a sign, or grab\n\

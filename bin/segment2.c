@@ -1699,6 +1699,18 @@ ALIGNED8 static const Texture texture_font_char_us_period[] = {
 #include "textures/segment2/font_graphics.06A80.ia4.inc.c"
 };
 
+ALIGNED8 static const Texture texture_font_char_us_a_accent[] = {
+#include "textures/segment2/custom_font_graphics_a_accent.ia4.inc.c"
+};
+
+ALIGNED8 static const Texture texture_font_char_us_e_accent[] = {
+#include "textures/segment2/custom_font_graphics_e_accent.ia4.inc.c"
+};
+
+ALIGNED8 static const Texture texture_font_char_us_o_accent[] = {
+#include "textures/segment2/custom_font_graphics_o_accent.ia4.inc.c"
+};
+
 ALIGNED8 static const Texture texture_font_char_us_percent[] = {
 #include "textures/segment2/font_graphics.06AC0.ia4.inc.c"
 };
@@ -1943,7 +1955,7 @@ const Texture *const main_font_lut[] = {
     texture_font_char_us_q, texture_font_char_us_r, texture_font_char_us_s, texture_font_char_us_t,
     texture_font_char_us_u, texture_font_char_us_v, texture_font_char_us_w, texture_font_char_us_x,
     texture_font_char_us_y, texture_font_char_us_z, texture_font_char_us_apostrophe, texture_font_char_us_period,
-                  0x0,               0x0,               0x0,               0x0,
+    texture_font_char_us_a_accent,texture_font_char_us_e_accent,               0x0,texture_font_char_us_o_accent,
                   0x0,               0x0,               0x0,               0x0,
                   0x0,               0x0,               0x0,               0x0,
                   0x0,               0x0,               0x0,               0x0,
