@@ -1671,6 +1671,11 @@ ALIGNED8 static const Texture texture_font_char_us_exclamation[] = {
 #include "textures/segment2/font_graphics.068C0.ia4.inc.c"
 };
 
+ALIGNED8 static const Texture texture_font_char_us_exclamation_spanish[] = {
+#include "textures/segment2/font_graphics_exclamation_spanish.ia4.inc.c"
+};
+
+
 ALIGNED8 static const Texture texture_font_char_us_coin[] = {
 #include "textures/segment2/font_graphics.06900.ia4.inc.c"
 };
@@ -1707,9 +1712,54 @@ ALIGNED8 static const Texture texture_font_char_us_e_accent[] = {
 #include "textures/segment2/custom_font_graphics_e_accent.ia4.inc.c"
 };
 
+ALIGNED8 static const Texture texture_font_char_us_i_accent[] = {
+#include "textures/segment2/custom_font_graphics_i_accent.ia4.inc.c"
+};
+
 ALIGNED8 static const Texture texture_font_char_us_o_accent[] = {
 #include "textures/segment2/custom_font_graphics_o_accent.ia4.inc.c"
 };
+
+ALIGNED8 static const Texture texture_font_char_us_u_accent[] = {
+#include "textures/segment2/custom_font_graphics_u_accent.ia4.inc.c"
+};
+
+ALIGNED8 static const Texture texture_font_char_us_A_accent[] = {
+#include "textures/segment2/custom_font_graphics_up_A_accent.ia4.inc.c"
+};
+
+ALIGNED8 static const Texture texture_font_char_us_E_accent[] = {
+#include "textures/segment2/custom_font_graphics_up_E_accent.ia4.inc.c"
+};
+
+ALIGNED8 static const Texture texture_font_char_us_I_accent[] = {
+#include "textures/segment2/custom_font_graphics_up_I_accent.ia4.inc.c"
+};
+
+ALIGNED8 static const Texture texture_font_char_us_O_accent[] = {
+#include "textures/segment2/custom_font_graphics_up_O_accent.ia4.inc.c"
+};
+
+ALIGNED8 static const Texture texture_font_char_us_U_accent[] = {
+#include "textures/segment2/custom_font_graphics_up_U_accent.ia4.inc.c"
+};
+
+ALIGNED8 static const Texture texture_font_char_us_n_accent[] = {
+#include "textures/segment2/custom_font_graphics_n_accent.ia4.inc.c"
+};
+
+ALIGNED8 static const Texture texture_font_char_us_N_accent[] = {
+#include "textures/segment2/custom_font_graphics_up_N_accent.ia4.inc.c"
+};
+
+ALIGNED8 static const Texture texture_font_char_us_u_umlaut[] = {
+#include "textures/segment2/custom_font_graphics_u_umlaut.ia4.inc.c"
+};
+
+ALIGNED8 static const Texture texture_font_char_us_up_U_umlaut[] = {
+#include "textures/segment2/custom_font_graphics_up_U_umlaut.ia4.inc.c"
+};
+
 
 ALIGNED8 static const Texture texture_font_char_us_percent[] = {
 #include "textures/segment2/font_graphics.06AC0.ia4.inc.c"
@@ -1730,6 +1780,11 @@ ALIGNED8 static const Texture texture_font_char_us_apostrophe[] = {
 ALIGNED8 static const Texture texture_font_char_us_question[] = {
 #include "textures/segment2/font_graphics.06BC0.ia4.inc.c"
 };
+
+ALIGNED8 static const Texture texture_font_char_us_question_spanish[] = {
+#include "textures/segment2/font_graphics_question_spanish.ia4.inc.c"
+};
+
 
 ALIGNED8 static const Texture texture_font_char_us_star_filled[] = {
 #include "textures/segment2/font_graphics.06C00.ia4.inc.c"
@@ -1955,10 +2010,10 @@ const Texture *const main_font_lut[] = {
     texture_font_char_us_q, texture_font_char_us_r, texture_font_char_us_s, texture_font_char_us_t,
     texture_font_char_us_u, texture_font_char_us_v, texture_font_char_us_w, texture_font_char_us_x,
     texture_font_char_us_y, texture_font_char_us_z, texture_font_char_us_apostrophe, texture_font_char_us_period,
-    texture_font_char_us_a_accent,texture_font_char_us_e_accent,               0x0,texture_font_char_us_o_accent,
-                  0x0,               0x0,               0x0,               0x0,
-                  0x0,               0x0,               0x0,               0x0,
-                  0x0,               0x0,               0x0,               0x0,
+    texture_font_char_us_a_accent,texture_font_char_us_e_accent,texture_font_char_us_i_accent,texture_font_char_us_o_accent,
+    texture_font_char_us_u_accent,texture_font_char_us_A_accent,texture_font_char_us_E_accent,texture_font_char_us_I_accent,
+    texture_font_char_us_O_accent,texture_font_char_us_U_accent,texture_font_char_us_n_accent,texture_font_char_us_N_accent,
+    texture_font_char_us_u_umlaut,texture_font_char_us_up_U_umlaut,texture_font_char_us_exclamation_spanish,texture_font_char_us_question_spanish,
     texture_font_char_us_button_C_up, texture_font_char_us_button_C_down, texture_font_char_us_button_C_left, texture_font_char_us_button_C_right,
     texture_font_char_us_button_A, texture_font_char_us_button_B, texture_font_char_us_button_C, texture_font_char_us_button_Z,
     texture_font_char_us_button_R,               0x0,               0x0,               0x0,
