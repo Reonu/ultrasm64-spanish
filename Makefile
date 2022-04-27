@@ -85,7 +85,7 @@ else ifeq ($(VERSION),sh)
   DEFINES += VERSION_SH=1
 endif
 
-TARGET := sm64
+TARGET := sm64ESP
 
 
 # GRUCODE - selects which RSP microcode to use.
@@ -139,7 +139,7 @@ ifeq ($(NON_MATCHING),1)
 endif
 
 
-TARGET_STRING := sm64
+TARGET_STRING := sm64ESP
 
 # UNF - whether to use UNFLoader flashcart library
 #   1 - includes code in ROM
