@@ -59,5 +59,6 @@
 
 #define TEST_LEVEL LEVEL_CASTLE_GROUNDS
 #define PEACH_SKIP
+#define DIALOG_BOX_WIDTH 160
 
 #endif // CONFIG_H
