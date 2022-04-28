@@ -1189,7 +1189,16 @@ s32 init_level(void) {
 
         if (gCurrentArea != NULL) {
             reset_camera(gCurrentArea->camera);
-
+#ifdef PEACH_SKIP
+            if (gCurrDemoInput != NULL) {
+                set_mario_action(gMarioState, ACT_IDLE, 0);
+            } else if (!gDebugLevelSelect) {
+                if (gMarioState->action != ACT_UNINITIALIZED) {
+                    set_mario_action(gMarioState, ACT_IDLE, 0);
+                }
+            }
+        }
+#else
             if (gCurrDemoInput != NULL) {
                 set_mario_action(gMarioState, ACT_IDLE, 0);
             } else if (!gDebugLevelSelect) {
@@ -1203,7 +1212,7 @@ s32 init_level(void) {
                 }
             }
         }
-
+#endif
         if (val4) {
             play_transition(WARP_TRANSITION_FADE_FROM_COLOR, 0x5A, 0xFF, 0xFF, 0xFF);
         } else {

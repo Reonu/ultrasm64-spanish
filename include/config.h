@@ -57,4 +57,7 @@
 #define BORDER_HEIGHT_EMULATOR 0
 #endif
 
+#define TEST_LEVEL LEVEL_CASTLE_GROUNDS
+#define PEACH_SKIP
+
 #endif // CONFIG_H
