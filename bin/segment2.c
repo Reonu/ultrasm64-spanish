@@ -1672,7 +1672,7 @@ ALIGNED8 static const Texture texture_font_char_us_exclamation[] = {
 };
 
 ALIGNED8 static const Texture texture_font_char_us_exclamation_spanish[] = {
-#include "textures/segment2/font_graphics_exclamation_spanish.ia4.inc.c"
+#include "textures/segment2/custom_font_graphics_exclamation_spanish.ia4.inc.c"
 };
 
 
@@ -1782,7 +1782,7 @@ ALIGNED8 static const Texture texture_font_char_us_question[] = {
 };
 
 ALIGNED8 static const Texture texture_font_char_us_question_spanish[] = {
-#include "textures/segment2/font_graphics_question_spanish.ia4.inc.c"
+#include "textures/segment2/custom_font_graphics_question_spanish.ia4.inc.c"
 };
 
 
