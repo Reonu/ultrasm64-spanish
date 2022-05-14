@@ -503,7 +503,8 @@ void print_generic_string(s16 x, s16 y, const u8 *str) {
 }
 
 #ifdef VERSION_EU
-void print_hud_char_umlaut(s16 x, s16 y, u8 chr) {
+#endif
+void print_hud_char_aygoo(s16 x, s16 y, u8 chr) {
     void **fontLUT = segmented_to_virtual(main_hud_lut);
 
     gDPPipeSync(gDisplayListHead++);
@@ -511,11 +512,12 @@ void print_hud_char_umlaut(s16 x, s16 y, u8 chr) {
     gSPDisplayList(gDisplayListHead++, dl_rgba16_load_tex_block);
     gSPTextureRectangle(gDisplayListHead++, x << 2, y << 2, (x + 16) << 2, (y + 16) << 2, G_TX_RENDERTILE, 0, 0, 1 << 10, 1 << 10);
 
-    gDPSetTextureImage(gDisplayListHead++, G_IM_FMT_RGBA, G_IM_SIZ_16b, 1, fontLUT[GLYPH_UMLAUT]);
+    s16 aposY = y - 4; 
+
+    gDPSetTextureImage(gDisplayListHead++, G_IM_FMT_RGBA, G_IM_SIZ_16b, 1, fontLUT[GLYPH_APOSTROPHE]);
     gSPDisplayList(gDisplayListHead++, dl_rgba16_load_tex_block);
-    gSPTextureRectangle(gDisplayListHead++, x << 2, (y - 4) << 2, (x + 16) << 2, (y + 12) << 2, G_TX_RENDERTILE, 0, 0, 1 << 10, 1 << 10);
+    gSPTextureRectangle(gDisplayListHead++, x << 2, aposY << 2, (x + 16) << 2, (aposY + 16) << 2, G_TX_RENDERTILE, 0, 0, 1 << 10, 1 << 10);
 }
-#endif
 
 /**
  * Prints a hud string depending of the hud table list defined.
@@ -547,18 +549,18 @@ void print_hud_lut_string(s8 hudLUT, s16 x, s16 y, const u8 *str) {
                 curX += xStride / 2;
                 break;
             case HUD_CHAR_A_UMLAUT:
-                print_hud_char_umlaut(curX, curY, ASCII_TO_DIALOG('A'));
+                print_hud_char_aygoo(curX, curY, ASCII_TO_DIALOG('A'));
                 curX += xStride;
                 break;
             case HUD_CHAR_O_UMLAUT:
-                print_hud_char_umlaut(curX, curY, ASCII_TO_DIALOG('O'));
-                curX += xStride;
-                break;
-            case HUD_CHAR_U_UMLAUT:
-                print_hud_char_umlaut(curX, curY, ASCII_TO_DIALOG('U'));
+                print_hud_char_aygoo(curX, curY, ASCII_TO_DIALOG('O'));
                 curX += xStride;
                 break;
 #else
+            case '/':
+                print_hud_char_aygoo(curX, curY, ASCII_TO_DIALOG('E'));
+                curX += xStride;
+                break;
             case GLOBAL_CHAR_SPACE:
                 curX += 8;
                 break;
