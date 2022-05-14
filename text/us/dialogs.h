@@ -2258,7 +2258,7 @@ El castillo de la princesa\n\
 está justo delante.\n\
 \n\
 \n\
-Pulsa [A] para saltar,[Z]\n\
+Pulsa [A] para saltar, [Z]\n\
 para agacharte, y [B] para\n\
 dar un puñetazo, leer un\n\
 cartel, o coger algo.\n\

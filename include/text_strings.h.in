@@ -162,8 +162,8 @@
 #define TEXT_ERASE_FILE_BUTTON _("ERASE FILE")
 
 // Score Menu
-#define TEXT_HI_SCORE _("HI SCORE")
-#define TEXT_MY_SCORE _("MY SCORE")
+#define TEXT_HI_SCORE _("NUEVO R/CORD")
+#define TEXT_MY_SCORE _("MI R/CORD")
 // Score Mario Text ("☺" is the Mario face defined in the US/EU menu char table)
 #define TEXT_SCORE_MARIO_A _("☺A")
 #define TEXT_SCORE_MARIO_B _("☺B")
@@ -202,7 +202,7 @@
 // Course Completed Misc Text
 #define TEXT_CATCH _("CATCH")
 #define TEXT_CLEAR _("CLEAR")
-#define TEXT_HUD_HI_SCORE _("HI SCORE")
+#define TEXT_HUD_HI_SCORE _("NUEVO R/CORD")
 
 // Save Options
 #define TEXT_SAVE_AND_CONTINUE _("SAVE & CONTINUE")
