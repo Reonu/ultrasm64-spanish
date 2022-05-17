@@ -2680,7 +2680,7 @@ void print_score_file_star_score(s8 fileIndex, s16 courseIndex, s16 x, s16 y) {
     #define HISCORE_X get_str_x_pos_from_center(257, textHiScore[sLanguageMode], 10.0f)
 #else
     #define MYSCORE_X 238
-    #define HISCORE_X 231
+    #define HISCORE_X 200
 #endif
 #endif
 

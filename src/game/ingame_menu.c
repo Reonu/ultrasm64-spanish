@@ -2696,7 +2696,7 @@ s16 render_pause_courses_and_castle(void) {
     #define TXT_HISCORE_Y 48
     #define TXT_CONGRATS_X 60
 #elif defined(VERSION_US)
-    #define TXT_HISCORE_X 109
+    #define TXT_HISCORE_X 95
     #define TXT_HISCORE_Y 36
     #define TXT_CONGRATS_X 70
 #elif defined(VERSION_EU)

@@ -162,7 +162,7 @@
 #define TEXT_ERASE_FILE_BUTTON _("ERASE FILE")
 
 // Score Menu
-#define TEXT_HI_SCORE _("NUEVO R/CORD")
+#define TEXT_HI_SCORE _("R/CORDS")
 #define TEXT_MY_SCORE _("MI R/CORD")
 // Score Mario Text ("☺" is the Mario face defined in the US/EU menu char table)
 #define TEXT_SCORE_MARIO_A _("☺A")
@@ -185,7 +185,7 @@
  * Menus Text (Pause, Course Completed)
  */
 // Main Courses
-#define TEXT_COURSE _("COURSE")
+#define TEXT_COURSE _("NIVEL")
 #define TEXT_MYSCORE _("MYSCORE")
 #define TEXT_CONTINUE _("CONTINUE")
 #define TEXT_EXIT_COURSE _("EXIT COURSE")
@@ -205,9 +205,9 @@
 #define TEXT_HUD_HI_SCORE _("NUEVO R/CORD")
 
 // Save Options
-#define TEXT_SAVE_AND_CONTINUE _("SAVE & CONTINUE")
-#define TEXT_SAVE_AND_QUIT _("SAVE & QUIT")
-#define TEXT_CONTINUE_WITHOUT_SAVING _("CONTINUE, DON'T SAVE")
+#define TEXT_SAVE_AND_CONTINUE _("GUARDAR Y CONTINUAR")
+#define TEXT_SAVE_AND_QUIT _("GUARDAR Y SALIR")
+#define TEXT_CONTINUE_WITHOUT_SAVING _("CONTINUAR SIN GUARDAR")
 
 /**
  * Ending Peach cutscene text.
