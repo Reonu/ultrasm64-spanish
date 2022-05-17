@@ -2254,6 +2254,12 @@ así que vuelve más tarde.\n\
 //--Koopa el Rápido"))
 
 DEFINE_DIALOG(DIALOG_167, 1, 4, 30, 200, _("\
+áéíóúüñ\n\
+ÁÉÍÓÚÜÑ\n\
+¡¿"))
+
+/*
+DEFINE_DIALOG(DIALOG_167, 1, 4, 30, 200, _("\
 El castillo de la princesa\n\
 está justo delante.\n\
 \n\
@@ -2265,6 +2271,7 @@ cartel, o coger algo.\n\
 Vuelve a pulsar [B] para\n\
 tirar algo que hayas\n\
 cogido."))
+*/
 
 DEFINE_DIALOG(DIALOG_168, 1, 5, 30, 200, _("\
 ¡Hey! ¡Ya basta! ¡Es la\n\
