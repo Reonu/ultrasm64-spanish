@@ -69,7 +69,7 @@ u8 gDialogCharWidths[256] = { // TODO: Is there a way to auto generate this?
     7,  7,  7,  7,  7,  7,  7,  7,  7,  7,  6,  6,  6,  6,  6,  6,
     6,  6,  5,  6,  6,  5,  8,  8,  6,  6,  6,  6,  6,  5,  6,  6,
     8,  7,  6,  6,  6,  5,  5,  6,  5,  5,  6,  5,  4,  5,  5,  3,
-    7,  5,  5,  5,  6,  5,  5,  5,  5,  5,  7,  7,  5,  5,  4,  4, 
+    7,  5,  5,  5,  6,  5,  5,  5,  5,  5,  7,  7,  5,  5,  4,  4,
     6,  5,  4,  5,  5,  6,  6,  5,  6,  6,  5,  8,  5,  6,  5,  7, // spanish here
     8,  8,  8,  8,  7,  7,  6,  7,  7,  0,  0,  0,  0,  0,  0,  0,
     0,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0,  4,
@@ -512,8 +512,9 @@ void print_hud_char_aygoo(s16 x, s16 y, u8 chr) {
     gSPDisplayList(gDisplayListHead++, dl_rgba16_load_tex_block);
     gSPTextureRectangle(gDisplayListHead++, x << 2, y << 2, (x + 16) << 2, (y + 16) << 2, G_TX_RENDERTILE, 0, 0, 1 << 10, 1 << 10);
 
-    s16 aposY = y - 4; 
+    s16 aposY = y - ACCENT_OFFSET;
 
+    gDPPipeSync(gDisplayListHead++);
     gDPSetTextureImage(gDisplayListHead++, G_IM_FMT_RGBA, G_IM_SIZ_16b, 1, fontLUT[GLYPH_APOSTROPHE]);
     gSPDisplayList(gDisplayListHead++, dl_rgba16_load_tex_block);
     gSPTextureRectangle(gDisplayListHead++, x << 2, aposY << 2, (x + 16) << 2, (aposY + 16) << 2, G_TX_RENDERTILE, 0, 0, 1 << 10, 1 << 10);
@@ -558,7 +559,9 @@ void print_hud_lut_string(s8 hudLUT, s16 x, s16 y, const u8 *str) {
                 break;
 #else
             case '/':
+            case 0xD0:
                 print_hud_char_aygoo(curX, curY, ASCII_TO_DIALOG('E'));
+
                 curX += xStride;
                 break;
             case GLOBAL_CHAR_SPACE:
@@ -635,6 +638,10 @@ void print_menu_generic_string(s16 x, s16 y, const u8 *str) {
                 mark = DIALOG_MARK_HANDAKUTEN;
                 break;
 #endif
+            // case '/':
+            //     print_hud_char_aygoo(curX, curY, ASCII_TO_DIALOG('E'));
+            //     curX += 12;
+            //     break;
             case DIALOG_CHAR_SPACE:
                 curX += 4;
                 break;

@@ -436,7 +436,7 @@ void render_text_labels(void) {
                     render_textrect(sTextLabels[i]->x, sTextLabels[i]->y, j);
 
                     add_glyph_texture(GLYPH_APOSTROPHE);
-                    render_textrect(sTextLabels[i]->x, sTextLabels[i]->y + 5, j);
+                    render_textrect(sTextLabels[i]->x, sTextLabels[i]->y + ACCENT_OFFSET, j);
                 } else {
                     add_glyph_texture(glyphIndex);
                     render_textrect(sTextLabels[i]->x, sTextLabels[i]->y, j);

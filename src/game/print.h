@@ -8,6 +8,8 @@
 #define TEXRECT_MIN_Y 5
 #define TEXRECT_MAX_Y 220
 
+#define ACCENT_OFFSET 10
+
 #define GLYPH_SPACE           -1
 #define GLYPH_U               30
 #define GLYPH_EXCLAMATION_PNT 36
