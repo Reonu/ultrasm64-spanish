@@ -1457,11 +1457,11 @@ ALIGNED8 static const Texture texture_menu_font_char_Z[] = {
 };
 
 ALIGNED8 static const Texture texture_menu_font_char_I_accent[] = {
-#include "levels/menu/main_menu_seg7_us_I_accent.ia8.inc.c"
+#include "levels/menu/custom_main_menu_seg7_us_I_accent.ia8.inc.c"
 };
 
 ALIGNED8 static const Texture texture_menu_font_char_E_accent[] = {
-#include "levels/menu/main_menu_seg7_us_E_accent.ia8.inc.c"
+#include "levels/menu/custom_main_menu_seg7_us_E_accent.ia8.inc.c"
 };
 
 
