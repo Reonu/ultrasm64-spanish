@@ -18,12 +18,12 @@
  * Global Text
  */
 // File Select
-#define TEXT_NEW _("NEW") // New File Text
+#define TEXT_NEW _("NUEVO") // New File Text
 #define TEXT_4DASHES _("----") // Used in Score File Menu
 
 // Ingame Menu
-#define TEXT_PAUSE _("PAUSE") // Pause text, Castle Courses
-#define TEXT_HUD_CONGRATULATIONS _("CONGRATULATIONS") // Course Complete Text, Bowser Courses
+#define TEXT_PAUSE _("PAUSA") // Pause text, Castle Courses
+#define TEXT_HUD_CONGRATULATIONS _("FELICIDADES") // Course Complete Text, Bowser Courses
 
 #if defined(VERSION_JP) || defined(VERSION_SH)
 
@@ -131,39 +131,39 @@
  */
 // Main Screens
 #define TEXT_MARIO _("MARIO") // View Score Menu
-#define TEXT_SELECT_FILE _("SELECT FILE")
-#define TEXT_CHECK_FILE _("CHECK FILE")
-#define TEXT_COPY_FILE _("COPY FILE")
-#define TEXT_ERASE_FILE _("ERASE FILE")
-#define TEXT_SOUND_SELECT _("SOUND SELECT")
+#define TEXT_SELECT_FILE _("ELEGIR ARCHIVO")
+#define TEXT_CHECK_FILE _("VER ARCHIVO")
+#define TEXT_COPY_FILE _("COPIAR ARCHIVO")
+#define TEXT_ERASE_FILE _("BORRAR ARCHIVO")
+#define TEXT_SOUND_SELECT _("MODO DE SONIDO")
 #define TEXT_FILE_MARIO_A _("MARIO A")
 #define TEXT_FILE_MARIO_B _("MARIO B")
 #define TEXT_FILE_MARIO_C _("MARIO C")
 #define TEXT_FILE_MARIO_D _("MARIO D")
 
 // Menu Options
-#define TEXT_SCORE _("SCORE")
-#define TEXT_COPY _("COPY")
-#define TEXT_ERASE _("ERASE")
+#define TEXT_SCORE _("RÉCORDS")
+#define TEXT_COPY _("COPIAR")
+#define TEXT_ERASE _("BORRAR")
 
 // Sound Options
-#define TEXT_STEREO _("STEREO")
+#define TEXT_STEREO _("ESTÉREO")
 #define TEXT_MONO _("MONO")
-#define TEXT_HEADSET _("HEADSET")
+#define TEXT_HEADSET _("CASCOS")
 
 // Misc Menu Text
-#define TEXT_SAVED_DATA_EXISTS _("SAVED DATA EXITS") // Misspell
-#define TEXT_NO_SAVED_DATA_EXISTS _("NO SAVED DATA EXISTS")
+#define TEXT_SAVED_DATA_EXISTS _("YA HAY DATOS GUARDADOS") // Misspell
+#define TEXT_NO_SAVED_DATA_EXISTS _("NO HAY DATOS GUARDADOS")
 
 // Inside a Menu
-#define TEXT_RETURN _("RETURN")
-#define TEXT_CHECK_SCORE _("CHECK SCORE")
-#define TEXT_COPY_FILE_BUTTON _("COPY FILE")
-#define TEXT_ERASE_FILE_BUTTON _("ERASE FILE")
+#define TEXT_RETURN _("VOLVER")
+#define TEXT_CHECK_SCORE _("VER RÉCORDS")
+#define TEXT_COPY_FILE_BUTTON _("COPIAR")
+#define TEXT_ERASE_FILE_BUTTON _("BORRAR")
 
 // Score Menu
-#define TEXT_HI_SCORE _("R/CORDS")
-#define TEXT_MY_SCORE _("MI R/CORD")
+#define TEXT_HI_SCORE _("RÉCORDS")
+#define TEXT_MY_SCORE _("MI RÉCORD")
 // Score Mario Text ("☺" is the Mario face defined in the US/EU menu char table)
 #define TEXT_SCORE_MARIO_A _("☺A")
 #define TEXT_SCORE_MARIO_B _("☺B")
@@ -171,37 +171,37 @@
 #define TEXT_SCORE_MARIO_D _("☺D")
 
 // Copy Menu
-#define TEXT_COPY_IT_TO_WHERE _("COPY IT TO WHERE?")
-#define TEXT_COPYING_COMPLETED _("COPYING COMPLETED")
-#define TEXT_NO_FILE_TO_COPY_FROM _("NO EMPTY FILE")
+#define TEXT_COPY_IT_TO_WHERE _("¿COPIAR DÓNDE?")
+#define TEXT_COPYING_COMPLETED _("COPIA COMPLETADA")
+#define TEXT_NO_FILE_TO_COPY_FROM _("NO HAY ARCHIVOS VACÍOS")
 
 // Erase Menu
-#define TEXT_SURE _("SURE?")
-#define TEXT_YES _("YES")
+#define TEXT_SURE _("¿SEGURO?")
+#define TEXT_YES _("SÍ")
 #define TEXT_NO _("NO")
-#define TEXT_FILE_MARIO_A_JUST_ERASED _("MARIO A JUST ERASED")
+#define TEXT_FILE_MARIO_A_JUST_ERASED _("MARIO A BORRADO")
 
 /**
  * Menus Text (Pause, Course Completed)
  */
 // Main Courses
 #define TEXT_COURSE _("NIVEL")
-#define TEXT_MYSCORE _("MYSCORE")
-#define TEXT_CONTINUE _("CONTINUE")
-#define TEXT_EXIT_COURSE _("EXIT COURSE")
+#define TEXT_MYSCORE _("MI RÉCORD")
+#define TEXT_CONTINUE _("CONTINUAR")
+#define TEXT_EXIT_COURSE _("SALIR DEL NIVEL")
 #ifndef VERSION_EU // "R" text is different in EU
-#define TEXT_CAMERA_ANGLE_R _("SET CAMERA ANGLE WITH R")
+#define TEXT_CAMERA_ANGLE_R _("MODO DE CÁMARA CON R")
 #endif
 
 // Camera Options
 #define TEXT_LAKITU_MARIO _("LAKITU + MARIO")
-#define TEXT_LAKITU_STOP _("LAKITU + STOP")
-#define TEXT_NORMAL_UPCLOSE __("(NORMAL)(UP-CLOSE)")
-#define TEXT_NORMAL_FIXED __("(NORMAL)(FIXED)")
+#define TEXT_LAKITU_STOP _("LAKITU + FIJA")
+#define TEXT_NORMAL_UPCLOSE __("(NORMAL)(CERCANA)")
+#define TEXT_NORMAL_FIXED __("(NORMAL)(FIJA)")
 
 // Course Completed Misc Text
-#define TEXT_CATCH _("CATCH")
-#define TEXT_CLEAR _("CLEAR")
+#define TEXT_CATCH _("CONSEGUIDA")
+#define TEXT_CLEAR _("COMPLETADO")
 #define TEXT_HUD_HI_SCORE _("NUEVO R/CORD")
 
 // Save Options
@@ -212,15 +212,15 @@
 /**
  * Ending Peach cutscene text.
  */
-#define TEXT_FILE_MARIO_EXCLAMATION _("Mario!")
-#define TEXT_POWER_STARS_RESTORED __("The power of the Stars is restored to the castle...")
-#define TEXT_THANKS_TO_YOU __("...and it's all thanks to you!")
-#define TEXT_THANK_YOU_MARIO __("Thank you, Mario!")
-#define TEXT_SOMETHING_SPECIAL __("We have to do something special for you...")
-#define TEXT_LISTEN_EVERYBODY _("Listen, everybody,")
-#define TEXT_LETS_HAVE_CAKE _("let's bake a delicious cake...")
-#define TEXT_FOR_MARIO _("...for Mario...")
-#define TEXT_FILE_MARIO_QUESTION _("Mario!")
+#define TEXT_FILE_MARIO_EXCLAMATION _("¡Mario!")
+#define TEXT_POWER_STARS_RESTORED __("El poder de las estrellas está volviendo al castillo...")
+#define TEXT_THANKS_TO_YOU __("...¡y es todo gracias a ti!")
+#define TEXT_THANK_YOU_MARIO __("¡Gracias, Mario!")
+#define TEXT_SOMETHING_SPECIAL __("Tenemos que hacer algo especial para ti...")
+#define TEXT_LISTEN_EVERYBODY _("Escuchadme todos,")
+#define TEXT_LETS_HAVE_CAKE _("horneemos una deliciosa tarta...")
+#define TEXT_FOR_MARIO _("...para Mario...")
+#define TEXT_FILE_MARIO_QUESTION _("¡Mario!")
 
 #endif
 

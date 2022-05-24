@@ -155,7 +155,7 @@ una carrera de verdad."))
 DEFINE_DIALOG(DIALOG_007, 1, 5, 30, 200, _("\
 Hufff...fff...pufff...\n\
 ¡Guau! Eres...muy...\n\
-¡rápido! ¡Apenas te vi!\n\
+¡rápido! ¡Apenas pude!\n\
 Aquí tienes: te lo has\n\
 ganado, sin duda.!"))
 
@@ -269,7 +269,7 @@ dueño y señor de toda la\n\
 materia disparable, ¡el\n\
 rey de las explosiones\n\
 y los disparos de todo\n\
-el mundo.\n\
+el mundo!\n\
 ¿Cómo te atreves a subir\n\
 aquí? ¿Quién te ha\n\
 dado derecho a pisar mi\n\
@@ -296,8 +296,9 @@ campo de batalla.\n\
 \n\
 ¿Serás capaz de levantar\n\
 mi peso y hacerme besar\n\
-el suelo? ¡Lo dudo\n\
+este suelo real? ¡Lo dudo\n\
 mucho!\n\
+\n\
 ¡Desembomba!"))
 
 DEFINE_DIALOG(DIALOG_018, 1, 4, 30, 200, _("\
@@ -755,7 +756,7 @@ acelera. Pareces un tío\n\
 rápido. Reconozco la\n\
 velocidad cuando la veo,\n\
 sí señor: ¡Soy el\n\
-kooredor más rápido del\n\
+más rápido del\n\
 mundo! ¿Lo sabías?\n\
 ¿Echamos una carrera?\n\
 Preparados, listos...\n\
@@ -891,7 +892,7 @@ para descender, y [Z]\n\
 para aterrizar."))
 
 DEFINE_DIALOG(DIALOG_065, 1, 6, 30, 200, _("\
-¡Clase de natación!!\n\
+¡Clase de natación!\n\
 Pulsa repetidamente [A]\n\
 para hacer el nado del\n\
 delfín. Si lo pulsas al\n\
@@ -2254,12 +2255,6 @@ así que vuelve más tarde.\n\
 //--Koopa el Rápido"))
 
 DEFINE_DIALOG(DIALOG_167, 1, 4, 30, 200, _("\
-áéíóúüñ\n\
-ÁÉÍÓÚÜÑ\n\
-¡¿"))
-
-/*
-DEFINE_DIALOG(DIALOG_167, 1, 4, 30, 200, _("\
 El castillo de la princesa\n\
 está justo delante.\n\
 \n\
@@ -2271,7 +2266,6 @@ cartel, o coger algo.\n\
 Vuelve a pulsar [B] para\n\
 tirar algo que hayas\n\
 cogido."))
-*/
 
 DEFINE_DIALOG(DIALOG_168, 1, 5, 30, 200, _("\
 ¡Hey! ¡Ya basta! ¡Es la\n\

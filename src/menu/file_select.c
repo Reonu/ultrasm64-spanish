@@ -1796,10 +1796,10 @@ void print_save_file_star_count(s8 fileIndex, s16 x, s16 y) {
     #define MARIOTEXT_X1 92
     #define MARIOTEXT_X2 207
 #elif defined(VERSION_US)
-    #define SELECT_FILE_X 93
-    #define SCORE_X 52
-    #define COPY_X 117
-    #define ERASE_X 177
+    #define SELECT_FILE_X 80
+    #define SCORE_X 48
+    #define COPY_X 112
+    #define ERASE_X 174
     #define SOUNDMODE_X1 sSoundTextX
     #define SAVEFILE_X1 92
     #define SAVEFILE_X2 209
@@ -1933,8 +1933,8 @@ void score_menu_display_message(s8 messageID) {
     #define ERASEFILE_X1 228
 #elif defined(VERSION_US)
     #define RETURN_X     44
-    #define COPYFILE_X1  135
-    #define ERASEFILE_X1 231
+    #define COPYFILE_X1  142
+    #define ERASEFILE_X1 242
 #elif defined(VERSION_EU)
     #define RETURN_X     centeredX
     #define COPYFILE_X1  centeredX
@@ -2020,7 +2020,7 @@ void print_score_menu_strings(void) {
     #define SAVE_EXISTS_X1 90
 #elif defined(VERSION_US)
     #define NOFILE_COPY_X  119
-    #define COPY_FILE_X    104
+    #define COPY_FILE_X    80
     #define COPYIT_WHERE_X 109
     #define NOSAVE_DATA_X2 101
     #define COPYCOMPLETE_X 110
@@ -2052,7 +2052,7 @@ void copy_menu_display_message(s8 messageID) {
             } else {
 #ifdef VERSION_EU
                 centeredX = get_str_x_pos_from_center_scale(160, textCopyFile[sLanguageMode], 12.0f);
-#endif
+#endif 
                 print_hud_lut_string_fade(HUD_LUT_DIFF, COPY_FILE_X, 35, LANGUAGE_ARRAY(textCopyFile));
             }
             break;
@@ -2135,7 +2135,7 @@ void copy_menu_update_message(void) {
     #define ERASEFILE_X2 220
 #elif defined(VERSION_US)
     #define VIEWSCORE_X1 128
-    #define ERASEFILE_X2 230
+    #define ERASEFILE_X2 238
 #elif defined(VERSION_EU)
     #define VIEWSCORE_X1 centeredX
     #define ERASEFILE_X2 centeredX
@@ -2303,7 +2303,7 @@ void print_erase_menu_prompt(s16 x, s16 y) {
     #define MARIO_ERASED_X   90
     #define SAVE_EXISTS_X2   90
 #elif defined(VERSION_US)
-    #define ERASE_FILE_X     98
+    #define ERASE_FILE_X     80
     #define NOSAVE_DATA_X3   100
     #define MARIO_ERASED_VAR 6
     #define MARIO_ERASED_X   100
@@ -2412,7 +2412,7 @@ void erase_menu_update_message(void) {
     #define COPYFILE_X2 223
 #else
     #define VIEWSCORE_X2 127
-    #define COPYFILE_X2 233
+    #define COPYFILE_X2 241
 #endif
 
 /**
@@ -2475,7 +2475,7 @@ void print_erase_menu_strings(void) {
 #if defined(VERSION_JP) || defined(VERSION_SH)
     #define SOUND_HUD_X 96
 #elif defined(VERSION_US)
-    #define SOUND_HUD_X 88
+    #define SOUND_HUD_X 80
 #endif
 
 /**
@@ -2680,7 +2680,7 @@ void print_score_file_star_score(s8 fileIndex, s16 courseIndex, s16 x, s16 y) {
     #define HISCORE_X get_str_x_pos_from_center(257, textHiScore[sLanguageMode], 10.0f)
 #else
     #define MYSCORE_X 238
-    #define HISCORE_X 200
+    #define HISCORE_X 231
 #endif
 #endif
 
