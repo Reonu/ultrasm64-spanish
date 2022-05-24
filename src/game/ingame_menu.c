@@ -1485,22 +1485,27 @@ void render_dialog_triangle_choice(void) {
     gSPDisplayList(gDisplayListHead++, dl_draw_triangle);
 }
 
-#if defined(VERSION_JP) || defined(VERSION_SH)
-    #define X_VAL5 123.0f
-    #define Y_VAL5_1 -20
-    #define Y_VAL5_2 2
-    #define X_Y_VAL6 0.8f
-#elif defined(VERSION_US)
-    #define X_VAL5 118.0f
-    #define Y_VAL5_1 -16
-    #define Y_VAL5_2 5
-    #define X_Y_VAL6 0.8f
-#elif defined(VERSION_EU)
-    #define X_VAL5 122.0f
-    #define Y_VAL5_1 -16
-    #define Y_VAL5_2 3
-    #define X_Y_VAL6 0.5f
-#endif
+// #if defined(VERSION_JP) || defined(VERSION_SH)
+//     #define X_VAL5 123.0f
+//     #define Y_VAL5_1 -20
+//     #define Y_VAL5_2 2
+//     #define X_Y_VAL6 0.8f
+// #elif defined(VERSION_US)
+//     #define X_VAL5 (DIALOG_BOX_WIDTH - 12.0f)
+//     #define Y_VAL5_1 -16
+//     #define Y_VAL5_2 5
+//     #define X_Y_VAL6 0.8f
+// #elif defined(VERSION_EU)
+//     #define X_VAL5 122.0f
+//     #define Y_VAL5_1 -16
+//     #define Y_VAL5_2 3
+//     #define X_Y_VAL6 0.5f
+// #endif
+
+#define X_VAL5 (DIALOG_BOX_WIDTH - 12.0f)
+#define Y_VAL5_1 -16
+#define Y_VAL5_2 5
+#define X_Y_VAL6 0.8f
 
 void render_dialog_triangle_next(s8 linesPerBox) {
     s32 globalTimer = gGlobalTimer;
@@ -1798,29 +1803,36 @@ void render_dialog_entries(void) {
 
     gDPSetScissor(
         gDisplayListHead++, G_SC_NON_INTERLACE,
-        // Horizontal scissoring isn't really required and can potentially mess up widescreen enhancements.
-#ifdef WIDESCREEN
         0,
-#else
-        ensure_nonnegative(dialog->leftOffset),
-#endif
         ensure_nonnegative(DIAG_VAL2 - dialog->width),
-#ifdef VERSION_EU
-#ifdef WIDESCREEN
         SCREEN_WIDTH,
-#else
-        ensure_nonnegative(dialog->leftOffset + (DIAG_VAL3 / gDialogBoxScale)),
-#endif
-        ensure_nonnegative((240 - dialog->width) + (dialog->linesPerBox * 80 / DIAG_VAL4 / gDialogBoxScale))
-#else
-#ifdef WIDESCREEN
-        SCREEN_WIDTH,
-#else
-        ensure_nonnegative(dialog->leftOffset + DIAG_VAL3),
-#endif
         ensure_nonnegative((240 - dialog->width) + (dialog->linesPerBox * 80 / DIAG_VAL4))
-#endif
     );
+//     gDPSetScissor(
+//         gDisplayListHead++, G_SC_NON_INTERLACE,
+//         // Horizontal scissoring isn't really required and can potentially mess up widescreen enhancements.
+// #ifdef WIDESCREEN
+//         0,
+// #else
+//         ensure_nonnegative(dialog->leftOffset),
+// #endif
+//         ensure_nonnegative(DIAG_VAL2 - dialog->width),
+// #ifdef VERSION_EU
+// #ifdef WIDESCREEN
+//         SCREEN_WIDTH,
+// #else
+//         ensure_nonnegative(dialog->leftOffset + (DIAG_VAL3 / gDialogBoxScale)),
+// #endif
+//         ensure_nonnegative((240 - dialog->width) + (dialog->linesPerBox * 80 / DIAG_VAL4 / gDialogBoxScale))
+// #else
+// #ifdef WIDESCREEN
+//         SCREEN_WIDTH,
+// #else
+//         ensure_nonnegative(dialog->leftOffset + DIAG_VAL3),
+// #endif
+//         ensure_nonnegative((240 - dialog->width) + (dialog->linesPerBox * 80 / DIAG_VAL4))
+// #endif
+//     );
 
 #ifdef VERSION_JP
     handle_dialog_text_and_pages(0, dialog);
