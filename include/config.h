@@ -46,7 +46,7 @@
 // Border Height Define for NTSC Versions
 #ifdef TARGET_N64
 #ifndef VERSION_EU
-#define BORDER_HEIGHT_CONSOLE 8
+#define BORDER_HEIGHT_CONSOLE 0
 #define BORDER_HEIGHT_EMULATOR 0
 #else
 #define BORDER_HEIGHT_CONSOLE 1
@@ -57,8 +57,8 @@
 #define BORDER_HEIGHT_EMULATOR 0
 #endif
 
-//#define TEST_LEVEL LEVEL_CASTLE
-//#define PEACH_SKIP
-#define DIALOG_BOX_WIDTH 130
+#define TEST_LEVEL LEVEL_CASTLE_GROUNDS
+#define PEACH_SKIP
+#define DIALOG_BOX_WIDTH 132
 
 #endif // CONFIG_H
