@@ -120,7 +120,7 @@ void print_intro_text(void) {
 #ifdef VERSION_EU
             print_text(20, 20, "START");
 #else
-            print_text_centered(60, 38, "PRESS");
+            print_text_centered(60, 38, "PULSA");
             print_text_centered(60, 20, "START");
 #endif
         }
