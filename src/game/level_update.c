@@ -28,6 +28,7 @@
 #include "level_table.h"
 #include "course_table.h"
 #include "rumble_init.h"
+#include "include/text_strings.h"
 
 #define PLAY_MODE_NORMAL 0
 #define PLAY_MODE_PAUSED 2
@@ -1333,4 +1334,14 @@ s32 lvl_set_current_level(UNUSED s16 arg0, s32 levelNum) {
 s32 lvl_play_the_end_screen_sound(UNUSED s16 arg0, UNUSED s32 arg1) {
     play_sound(SOUND_MENU_THANK_YOU_PLAYING_MY_GAME, gGlobalSoundSource);
     return 1;
+}
+
+s32 lvl_print_ending_text(UNUSED s16 arg0, UNUSED s32 arg1) {
+            u8 textTranslation[] = { TEXT_TRANSLATION };
+            gSPDisplayList(gDisplayListHead++, dl_ia_text_begin);
+            gDPSetEnvColor(gDisplayListHead++, 255, 255, 255, 255);
+            print_generic_string(40, 200, textTranslation);
+            gSPDisplayList(gDisplayListHead++, dl_ia_text_end);   
+            print_text(80, 218, "TRADUCIDO POR");
+            print_text(92, 190,  "DANIEL LE/N");         
 }

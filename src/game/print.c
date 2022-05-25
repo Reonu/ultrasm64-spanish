@@ -5,7 +5,6 @@
 #include "memory.h"
 #include "print.h"
 #include "segment2.h"
-
 /**
  * This file handles printing and formatting the colorful text that
  * appears when printing things such as "PRESS START".
@@ -407,6 +406,7 @@ void render_text_labels(void) {
     s32 j;
     s8 glyphIndex;
     Mtx *mtx;
+    extern s16 gCurrLevelNum;
 
     if (sTextLabelsCount == 0) {
         return;
@@ -432,9 +432,14 @@ void render_text_labels(void) {
                 // Beta Key was removed by EU, so glyph slot reused.
                 // This produces a colorful Ü.
                 if (glyphIndex == GLYPH_BETA_KEY) {
-                    add_glyph_texture('E' - 55);
-                    render_textrect(sTextLabels[i]->x, sTextLabels[i]->y, j);
-
+                    if (gCurrLevelNum = 25) {
+                        add_glyph_texture('O' - 55);
+                        render_textrect(sTextLabels[i]->x, sTextLabels[i]->y, j);
+                    } else {
+                        add_glyph_texture('E' - 55);
+                        render_textrect(sTextLabels[i]->x, sTextLabels[i]->y, j);                        
+                    }
+                    
                     add_glyph_texture(GLYPH_APOSTROPHE);
                     render_textrect(sTextLabels[i]->x, sTextLabels[i]->y + ACCENT_OFFSET, j);
                 } else {

@@ -72,10 +72,12 @@ static s32 sUnusedGameInitValue = 0;
 
 // General timer that runs as the game starts
 u32 gGlobalTimer = 0;
+u32 gTimerTimer;
 
 // Framebuffer rendering values (max 3)
 u16 sRenderedFramebuffer = 0;
 u16 sRenderingFramebuffer = 0;
+
 
 // Goddard Vblank Function Caller
 void (*gGoddardVblankCallback)(void) = NULL;

@@ -190,7 +190,7 @@
 #define TEXT_CONTINUE _("CONTINUAR")
 #define TEXT_EXIT_COURSE _("SALIR DEL NIVEL")
 #ifndef VERSION_EU // "R" text is different in EU
-#define TEXT_CAMERA_ANGLE_R _("MODO DE CÁMARA CON R")
+#define TEXT_CAMERA_ANGLE_R _("MODO DE CÁMARA CON [R]")
 #endif
 
 // Camera Options
@@ -212,15 +212,17 @@
 /**
  * Ending Peach cutscene text.
  */
-#define TEXT_FILE_MARIO_EXCLAMATION _("¡Mario!")
+#define TEXT_FILE_MARIO_EXCLAMATION _("TRADUCIDO POR DANIEL LEÓN")
 #define TEXT_POWER_STARS_RESTORED __("El poder de las estrellas está volviendo al castillo...")
 #define TEXT_THANKS_TO_YOU __("...¡y es todo gracias a ti!")
 #define TEXT_THANK_YOU_MARIO __("¡Gracias, Mario!")
 #define TEXT_SOMETHING_SPECIAL __("Tenemos que hacer algo especial para ti...")
 #define TEXT_LISTEN_EVERYBODY _("Escuchadme todos,")
-#define TEXT_LETS_HAVE_CAKE _("horneemos una deliciosa tarta...")
+#define TEXT_LETS_HAVE_CAKE _("preparemos una deliciosa tarta...")
 #define TEXT_FOR_MARIO _("...para Mario...")
 #define TEXT_FILE_MARIO_QUESTION _("¡Mario!")
+
+#define TEXT_TRANSLATION _("Traducido por Daniel León")
 
 #endif
 

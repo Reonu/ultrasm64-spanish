@@ -40,10 +40,10 @@ struct CameraHUD {
 // Stores health segmented value defined by numHealthWedges
 // When the HUD is rendered this value is 8, full health.
 static s16 sPowerMeterStoredHealth;
-
+#define POWER_METER_X 140
 static struct PowerMeterHUD sPowerMeterHUD = {
     POWER_METER_HIDDEN,
-    140,
+    POWER_METER_X,
     166,
     1.0,
 };
@@ -340,7 +340,7 @@ void render_hud_timer(void) {
             break;
     }
 #else
-    print_text(GFX_DIMENSIONS_RECT_FROM_RIGHT_EDGE(150), 185, "TIME");
+    print_text(GFX_DIMENSIONS_RECT_FROM_RIGHT_EDGE(175), 185, "TIEMPO");
 #endif
 
     print_text_fmt_int(GFX_DIMENSIONS_RECT_FROM_RIGHT_EDGE(91), 185, "%0d", timerMins);
@@ -457,6 +457,9 @@ void render_hud(void) {
 
         if (hudDisplayFlags & HUD_DISPLAY_FLAG_TIMER) {
             render_hud_timer();
+            sPowerMeterHUD.x = approach_s16_asymptotic(sPowerMeterHUD.x,(POWER_METER_X - 35), 5);
+        } else {
+            sPowerMeterHUD.x = approach_s16_asymptotic(sPowerMeterHUD.x,(POWER_METER_X), 5);
         }
     }
 }

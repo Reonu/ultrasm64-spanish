@@ -1456,14 +1456,41 @@ ALIGNED8 static const Texture texture_menu_font_char_Z[] = {
 #include "levels/menu/main_menu_seg7_us.0B500.ia8.inc.c"
 };
 
-ALIGNED8 static const Texture texture_menu_font_char_I_accent[] = {
-#include "levels/menu/custom_main_menu_seg7_us_I_accent.ia8.inc.c"
+ALIGNED8 static const Texture texture_menu_font_char_A_accent[] = {
+#include "levels/menu/custom_main_menu_seg7_us_A_accent.ia8.inc.c"
 };
 
 ALIGNED8 static const Texture texture_menu_font_char_E_accent[] = {
 #include "levels/menu/custom_main_menu_seg7_us_E_accent.ia8.inc.c"
 };
 
+ALIGNED8 static const Texture texture_menu_font_char_I_accent[] = {
+#include "levels/menu/custom_main_menu_seg7_us_I_accent.ia8.inc.c"
+};
+
+ALIGNED8 static const Texture texture_menu_font_char_O_accent[] = {
+#include "levels/menu/custom_main_menu_seg7_us_O_accent.ia8.inc.c"
+};
+
+ALIGNED8 static const Texture texture_menu_font_char_U_accent[] = {
+#include "levels/menu/custom_main_menu_seg7_us_U_accent.ia8.inc.c"
+};
+
+ALIGNED8 static const Texture texture_menu_font_char_N_accent[] = {
+#include "levels/menu/custom_main_menu_seg7_us_N_accent.ia8.inc.c"
+};
+
+ALIGNED8 static const Texture texture_menu_font_char_U_umlaut[] = {
+#include "levels/menu/custom_main_menu_seg7_us_U_umlaut.ia8.inc.c"
+};
+
+ALIGNED8 static const Texture custom_texture_menu_font_char_exclamation_spanish[] = {
+#include "levels/menu/custom_main_menu_seg7_us_exclamation_spanish.ia8.inc.c"
+};
+
+ALIGNED8 static const Texture custom_texture_menu_font_char_question_spanish[] = {
+#include "levels/menu/custom_main_menu_seg7_us_question_spanish.ia8.inc.c"
+};
 
 // 0x0700B540
 ALIGNED8 static const Texture texture_menu_font_char_coin[] = {
@@ -1577,9 +1604,9 @@ const Texture *const menu_font_lut[] = {
           0x0,       0x0,       0x0,       0x0,
           0x0,       0x0, texture_menu_font_char_apostrophe, texture_menu_font_char_period,
     texture_menu_font_char_mface1, texture_menu_font_char_mface2,       0x0,       0x0,
-          0x0,       0x0,texture_menu_font_char_E_accent,       texture_menu_font_char_I_accent,
-          0x0,       0x0,       0x0,       0x0,
-          0x0,       0x0,       0x0,       0x0,
+          0x0,       texture_menu_font_char_A_accent,texture_menu_font_char_E_accent,texture_menu_font_char_I_accent,
+          texture_menu_font_char_O_accent,texture_menu_font_char_U_accent,       0x0,texture_menu_font_char_N_accent,
+          0x0,texture_menu_font_char_U_umlaut,custom_texture_menu_font_char_exclamation_spanish,custom_texture_menu_font_char_question_spanish,
           0x0,       0x0,       0x0,       0x0,
           0x0,       0x0,       0x0,       0x0,
           0x0,       0x0,       0x0,       0x0,
@@ -1681,7 +1708,7 @@ ALIGNED8 static const Texture texture_menu_course_lower[] = {
 
 // 0x0700D1A8 - 0x0700E1A8
 ALIGNED8 static const Texture texture_menu_course_upper[] = {
-#include "levels/menu/main_menu_seg7.0D1A8.rgba16.inc.c"
+#include "levels/menu/custom_main_menu_seg7.0D1A8.rgba16.inc.c"
 };
 
 // 0x0700E1A8 - 0x0700F1A8

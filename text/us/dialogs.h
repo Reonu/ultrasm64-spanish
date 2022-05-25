@@ -21,60 +21,70 @@
 #define GIVE_UP "Dar"
 #endif*/
 
-DEFINE_DIALOG(DIALOG_000, 1, 6, 30, 200, _("\
+DEFINE_DIALOG(DIALOG_000, 1, 7, 30, 200, _("\
 ¡Guau! Has acabado en\n\
 mitad de un campo de\n\
 batalla. Encontrarás las\n\
 estrellas que Bowser robó\n\
 dentro de los mundos\n\
 de los cuadros.\n\
+\n\
 Primero, habla con\n\
 este amable Bob-omb.\n\
 ([B] para hablar). Te\n\
 ayudará, y también\n\
 sus camaradas en otros\n\
 lugares.\n\
+\n\
 Para leer carteles,\n\
 párate, míralos y pulsa\n\
-[B] Pulsa [A] o [B]\n\
+[B]. Pulsa [A] o [B]\n\
 para seguir leyendo. \n\
 Puedes hablar con algunos\n\
 personajes mirándoles\n\
 y pulsando [B]."))
 
-DEFINE_DIALOG(DIALOG_001, 1, 4, 95, 200, _("\
+DEFINE_DIALOG(DIALOG_001, 1, 7, 95, 200, _("\
 ¡Ten cuidado! ¡Si\n\
 merodeas por aquí, es\n\
 muy probable que seas\n\
 víctima de una bomba\n\
 de agua!\n\
+\n\
+\n\
 ¡A esos Bob-omb\n\
 enemigos les encanta\n\
 luchar, y siempre están\n\
 buscando nuevas maneras\n\
 de atacar.\n\
+\n\
+\n\
 Este prado lleva siendo\n\
 un campo de batalla\n\
 desde que el Gran\n\
 Bob-Omb puso sus\n\
 garras en la \n\
-Estrella de Poder\n\
+Estrella de Poder.\n\
+\n\
 ¿Podrías recuperar la\n\
 estrella por nosotros?\n\
 Cruza el puente y ve\n\
 hacia la izquierda\n\
 por el camino para\n\
 llegar hasta el Gran\n\
-Bob-Omb. Por favor,\n\
+Bob-Omb.\n\
+Por favor,\n\
 ven a verme otra vez\n\
 cuando hayas conseguido\n\
 la Estrella de Poder."))
 
-DEFINE_DIALOG(DIALOG_002, 1, 4, 95, 200, _("\
+DEFINE_DIALOG(DIALOG_002, 1, 6, 95, 200, _("\
 ¡Hey, tú! ¡Es peligroso\n\
 seguir adelante, así que\n\
 escucha lo que tengo\n\
 que decirte!\n\
+\n\
+\n\
 Cruza los dos puentes\n\
 que hay más adelante,\n\
 y tras cruzar, ten\n\
@@ -85,6 +95,8 @@ El Gran Bob-omb en lo\n\
 alto de la montaña\n\
 es muy fuerte: ¡no\n\
 dejes que te coja!\n\
+\n\
+\n\
 Somos Bob-omb amigables,\n\
 y estamos de tu lado.\n\
 ¡Puedes hablarnos\n\
@@ -155,9 +167,9 @@ una carrera de verdad."))
 DEFINE_DIALOG(DIALOG_007, 1, 5, 30, 200, _("\
 Hufff...fff...pufff...\n\
 ¡Guau! Eres...muy...\n\
-¡rápido! ¡Apenas pude!\n\
-Aquí tienes: te lo has\n\
-ganado, sin duda.!"))
+¡rápido! ¡Apenas pude\n\
+verte! Aquí tienes: te lo\n\
+has ganado, sin duda."))
 
 DEFINE_DIALOG(DIALOG_008, 1, 5, 30, 200, _("\
 CUIDADO CON CHOMP\n\
@@ -175,13 +187,14 @@ una Estrella de\n\
 Poder aparecerá en el\n\
 prado, pasado el puente."))
 
-DEFINE_DIALOG(DIALOG_009, 1, 5, 30, 200, _("\
+DEFINE_DIALOG(DIALOG_009, 1, 8, 30, 200, _("\
 ¡Cuánto tiempo!\n\
-Madré mía, sí que te has\n\
+Madre mía, sí que te has\n\
 vuelto rápido, ¿eh?\n\
 ¿Has estado entrenando en\n\
 secreto, o es por el\n\
 poder de las Estrellas?\n\
+\n\
 \n\
 Lo de perder la última\n\
 carrera me ha dejado un\n\
@@ -249,8 +262,8 @@ más decidido que nunca.\n\
 
 DEFINE_DIALOG(DIALOG_015, 1, 4, 30, 200, _("\
 Puedes darle un puñetazo\n\
-para derribarlos. Pulsa\n\
-[A] para saltar, y [B]\n\
+a un enemigo para vencerlo.\n\
+Pulsa [A] para saltar, y [B]\n\
 para dar un puñetazo.\n\
 Para recoger algo, pulsa\n\
 [B]. Si quieres tirar lo\n\
@@ -831,16 +844,19 @@ respirar bajo el agua.\n\
 Pulsa [A] para nadar.\n\
 Mantén pulsado [A] para\n\
 nadar a un ritmo suave.\n\
+\n\
 Pulsa [A] repetidamente\n\
 para nadar rápido.\n\
+\n\
+\n\
 Mueve el stick de control\n\
 hacia arriba y pulsa [A]\n\
 para bucear.\n\
+\n\
 Mueve el stick de control\n\
 hacia abajo y pulsa [A]\n\
 para volver a la\n\
 superficie,\n\
-\n\
 Mantén el stick de control\n\
 hacia abajo y pulsa A\n\
 mientras estés en la\n\
@@ -903,7 +919,7 @@ nadar despacito con\n\
 los pies. Mueve el\n\
 stick de control hacia\n\
 arriba para descender, y\n\
-abajo para descender.\n\
+abajo para ascender.\n\
 Para salir del agua,\n\
 mantén el stick hacia\n\
 abajo cuando estés en la\n\
@@ -937,6 +953,7 @@ Cuanto más rápido muevas\n\
 el stick, más lejos\n\
 volará cuando lo sueltes\n\
 volviendo a pulsar [B]\n\
+\n\
 \n\
 Recuerda que puedes usar\n\
 los botones [C] para\n\
@@ -1037,10 +1054,11 @@ Si se te cae, tendrás\n\
 que buscarla por toda la\n\
 montaña."))
 
-DEFINE_DIALOG(DIALOG_073, 1, 5, 95, 200, _("\
+DEFINE_DIALOG(DIALOG_073, 1, 6, 95, 200, _("\
 ¡Aarrgh! Zaludos, pirata.\n\
 Tengo un tezoro oculto,\n\
 vaya que zí.\n\
+\n\
 \n\
 \n\
 Pero ziento dezirte que\n\
@@ -1053,6 +1071,7 @@ correcto.\n\
 ¡Jajaja! ¡Jamás te lo \n\
 diré, así que buena\n\
 zuerte!\n\
+\n\
 //--El Capitán"))
 
 DEFINE_DIALOG(DIALOG_074, 1, 6, 30, 200, _("\
@@ -1114,11 +1133,14 @@ En la habitación con el\n\
 espejo, estate atento\n\
 a ver si ves algo que\n\
 solo existe en el espejo.\n\
-Y cuando vayas a la\n\
-Ciudad Mojaseca, puedes\n\
-inundarla al entrar si \n\
+Y cuando vayas al\n\
+Mundo Mojaseca, puedes\n\
+inundarlo al entrar si \n\
 entras por la parte\n\
-superior del cuadro."))
+superior del cuadro.\n\
+\n\
+Por cierto, ¡mira lo que\n\
+he encontrado!"))
 
 DEFINE_DIALOG(DIALOG_077, 1, 3, 150, 200, _("\
 Por decreto real, es\n\
@@ -1314,6 +1336,7 @@ Para hablar con un Koopa\n\
 u otro animal, solo\n\
 tienes que ponerte\n\
 enfrente de él.\n\
+\n\
 Por favor, recupera las\n\
 estrellas que Bowser robó\n\
 y escondió en este mundo."))
@@ -1462,7 +1485,7 @@ En el menú de pausa\n\
 puedes comprobar cuantas\n\
 monedas has recogido en\n\
 cada uno de los 15\n\
-mundos enemigos\n\
+mundos enemigos.\n\
 También puedes recuperar\n\
 vida tocando un corazón\n\
 giratorio.\n\
@@ -1720,12 +1743,11 @@ Estás descalificado.\n\
 Para la próxima, juega\n\
 limpio."))
 
-DEFINE_DIALOG(DIALOG_133, 1, 7, 30, 200, _("\
-¡No tienes idea de lo\n\
-mucho que me alegra\n\
-verte!\n\
+DEFINE_DIALOG(DIALOG_133, 1, 6, 30, 200, _("\
+¡No sabes lo mucho\n\
+que me alegra verte!\n\
 La princesa, yo, y\n\
-todo el mundo...estamos\n\
+todo el mundo... estamos\n\
 atrapados dentro de las\n\
 paredes del castillo.\n\
 Bowser ha robado las\n\
@@ -1734,21 +1756,18 @@ está usando su poder para\n\
 crear su propio mundo\n\
 dentro de los cuadros y\n\
 las paredes.\n\
-\n\
 ¡Por favor, recupera las\n\
 Estrellas de Poder!\n\
 Cuando las encuentres,\n\
 podrás usar su poder para\n\
 abrir las puertas que\n\
 Bowser ha sellado.\n\
-\n\
 Hay cuatro salas en el\n\
 primer piso. Empieza por\n\
 la que tiene un cuadro de\n\
 unos Bob-omb. Es la única\n\
 sala que Bowser no ha\n\
 sellado.\n\
-\n\
 Cuando consigas ocho\n\
 Estrellas, podrás abrir\n\
 la puerta con la estrella\n\
@@ -2097,9 +2116,9 @@ En la habitación con el\n\
 espejo, estate atento\n\
 a ver si ves algo que\n\
 solo existe en el espejo.\n\
-Y cuando vayas a la\n\
-Ciudad Mojaseca, puedes\n\
-inundarla al entrar si \n\
+Y cuando vayas al\n\
+Mundo Mojaseca, puedes\n\
+inundarlo al entrar si \n\
 entras por la parte\n\
 superior del cuadro."))
 
@@ -2276,7 +2295,7 @@ a enterar!"))
 
 DEFINE_DIALOG(DIALOG_169, 1, 4, 30, 200, _("\
 ¡Prohibido el paso!\n\
-¡Va por ti!!\n\
+¡¡Va por ti!!\n\
 ¡Arrgghh!\n\
 \n\
 A cualquiera que entre en\n\
