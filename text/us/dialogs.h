@@ -64,7 +64,7 @@ un campo de batalla\n\
 desde que el Gran\n\
 Bob-Omb puso sus\n\
 garras en la \n\
-Estrella de Poder.\n\
+estrella de Poder.\n\
 \n\
 ¿Podrías recuperar la\n\
 estrella por nosotros?\n\
@@ -76,7 +76,7 @@ Bob-Omb.\n\
 Por favor,\n\
 ven a verme otra vez\n\
 cuando hayas conseguido\n\
-la Estrella de Poder."))
+la estrella de Poder."))
 
 DEFINE_DIALOG(DIALOG_002, 1, 6, 95, 200, _("\
 ¡Hey, tú! ¡Es peligroso\n\
@@ -110,9 +110,9 @@ batalla por el castillo no\n\
 ha hecho más que empezar.\n\
 \n\
 Hay otros enemigos que\n\
-tienen Estrellas de Poder.\n\
+tienen estrellas de poder.\n\
 Si consigues más\n\
-Estrellas, ¡podrás abrir\n\
+estrellas, ¡podrás abrir\n\
 más puertas que conducen\n\
 a nuevos mundos!\n\
 Mis amigos Bob-omb te\n\
@@ -183,7 +183,7 @@ Da miedito, ¿eh?\n\
 ¿Ves la moneda roja\n\
 encima del poste?\n\
 Si consigues ocho\n\
-una Estrella de\n\
+una estrella de\n\
 Poder aparecerá en el\n\
 prado, pasado el puente."))
 
@@ -193,7 +193,7 @@ Madre mía, sí que te has\n\
 vuelto rápido, ¿eh?\n\
 ¿Has estado entrenando en\n\
 secreto, o es por el\n\
-poder de las Estrellas?\n\
+poder de las estrellas?\n\
 \n\
 \n\
 Lo de perder la última\n\
@@ -252,7 +252,7 @@ más poder del castillo.\n\
 //Sí////No"))
 
 DEFINE_DIALOG(DIALOG_014, 1, 4, 30, 200, _("\
-¡Guau! ¡Otra Estrella de\n\
+¡Guau! ¡Otra estrella de\n\
 poder! Gracias al poder\n\
 del castillo, Marío está\n\
 más decidido que nunca.\n\
@@ -296,12 +296,12 @@ de esta bola\n\
 explosiva...\n\
 \n\
 ...¡y nunca te llevarás mi\n\
-Estrella de Poder! Por la\n\
+estrella de Poder! Por la\n\
 presente, ¡te reto a que\n\
 lo intentes, Mario!\n\
 \n\
 \n\
-Si quieres la Estrella de\n\
+Si quieres la estrella de\n\
 Poder, deberás de\n\
 demostrar tu valor en el\n\
 campo de batalla.\n\
@@ -314,7 +314,7 @@ mucho!\n\
 \n\
 ¡Desembomba!"))
 
-DEFINE_DIALOG(DIALOG_018, 1, 4, 30, 200, _("\
+DEFINE_DIALOG(DIALOG_018, 1, 5, 30, 200, _("\
 Estoy durmiendo porque...\n\
 ...tengo sueño. No quiero\n\
 que nadie me despierte.\n\
@@ -334,7 +334,7 @@ Atentamente--\n\
 Princesa Toadstool"))
 
 DEFINE_DIALOG(DIALOG_021, 1, 5, 95, 200, _("\
-¡Hola!.\n\
+Bienvenido.\n\
 ¡No hay nadie en casa!\n\
 Ahora LÁRGATE, ¡y no\n\
 vuelvas jamás!\n\
@@ -351,41 +351,41 @@ sótano?"))
 
 DEFINE_DIALOG(DIALOG_024, 1, 6, 95, 200, _("\
 Necesitas más poder de\n\
-las Estrellas para abrir\n\
+las estrellas para abrir\n\
 esta puerta. Recupera\n\
-Estrellas de Poder en\n\
+estrellas de Poder en\n\
 los mundos de los cuadros\n\
 del castillo."))
 
 DEFINE_DIALOG(DIALOG_025, 1, 4, 95, 200, _("\
 Para abrir esta puerta,\n\
 necesitas el poder de 3\n\
-Estrellas. Te faltan [%]\n\
-Estrellas."))
+estrellas. Te faltan [%]\n\
+estrellas."))
 
 DEFINE_DIALOG(DIALOG_026, 1, 4, 95, 200, _("\
 Para abrir esta puerta,\n\
 necesitas el poder de 8\n\
-Estrellas. Te faltan [%]\n\
-Estrellas."))
+estrellas. Te faltan [%]\n\
+estrellas."))
 
 DEFINE_DIALOG(DIALOG_027, 1, 4, 95, 200, _("\
 Para abrir esta puerta,\n\
 necesitas el poder de 30\n\
-Estrellas. Te faltan [%]\n\
-Estrellas."))
+estrellas. Te faltan [%]\n\
+estrellas."))
 
 DEFINE_DIALOG(DIALOG_028, 1, 4, 95, 200, _("\
 Para abrir esta puerta,\n\
 necesitas el poder de 50\n\
-Estrellas. Te faltan [%]\n\
-Estrellas."))
+estrellas. Te faltan [%]\n\
+estrellas."))
 
 DEFINE_DIALOG(DIALOG_029, 1, 5, 95, 200, _("\
 Si pretendes subir hasta\n\
 lo alto de las escaleras\n\
 『infinitas』, necesitarás\n\
-70 Estrellas\n\
+70 estrellas\n\
 ¡Muajajaja!"))
 
 DEFINE_DIALOG(DIALOG_030, 1, 6, 30, 200, _("\
@@ -397,7 +397,7 @@ nueva técnica para no\n\
 alertar a sus enemigos.\n\
 El truco consiste en\n\
 caminar muy despacio\n\
-para no hacer ruido\n\
+para no hacer ruido.\n\
 \n\
 \n\
 \n\
@@ -414,7 +414,7 @@ hermanos Lakitu,\n\
 despidiéndose."))
 
 DEFINE_DIALOG(DIALOG_031, 1, 6, 30, 200, _("\
-¡No puede ser!¡Me has\n\
+¡No puede ser! ¡Me has\n\
 ganado...¡otra vez! ¡Y\n\
 eso que me he gastado\n\
 todos mis ahorros en\n\
@@ -422,7 +422,7 @@ estos zapatos\n\
 koopasónicos!\n\
 En fin, supongo que\n\
 tendré que darle esta\n\
-Estrella al ganador de\n\
+estrella al ganador de\n\
 la carrera.\n\
 ¡Felicidades, Mario!"))
 
@@ -469,7 +469,7 @@ Mario acaba de llegar\n\
 y vamos a grabarle en\n\
 directo mientras entra al\n\
 castillo y busca las\n\
-Estrellas de Poder\n\
+estrellas de poder\n\
 perdidas.\n\
 Como cámara con\n\
 experiencia que soy,\n\
@@ -515,7 +515,7 @@ con la cámara de Lakitu\n\
 como la de Mario."))
 
 DEFINE_DIALOG(DIALOG_036, 1, 6, 30, 200, _("\
-PLATAFORMA DE OBSERVACIÓN\n\
+MIRADOR\n\
 Pulsa [C]^ para admirar\n\
 las vistas. ¡Aprovecha la\n\
 ocasión mira bien!\n\
@@ -542,7 +542,7 @@ la próxima vez!"))
 DEFINE_DIALOG(DIALOG_038, 1, 4, 95, 200, _("\
 La puerta está\n\
 reaccionando al poder de\n\
-la Estrella, y se empieza\n\
+la estrella, y se empieza\n\
 a abrir lentamente."))
 
 DEFINE_DIALOG(DIALOG_039, 1, 4, 30, 200, _("\
@@ -551,7 +551,7 @@ Bob-Omb, no se permiten\n\
 visitas.\n\
 \n\
 Jamás renunciaré a mis\n\
-Estrellas, ya que\n\
+estrellas, ya que\n\
 contienen el poder del\n\
 castillo.\n\
 Fueron un regalo del Rey\n\
@@ -633,7 +633,7 @@ agárrate fuerte!"))
 
 DEFINE_DIALOG(DIALOG_045, 1, 6, 95, 200, _("\
 ¡Mi madre! No puedo más.\n\
-¡Relájate con la pasta\n\
+¡Relájate con la pasta,\n\
 Mario! Hasta aquí\n\
 hemos llegado. Pulsa\n\
 [A] para soltarte, por\n\
@@ -752,7 +752,7 @@ secreto en un mundo,\n\
 aparecerá un número rojo.\n\
 ¡Si encuentras los cinco\n\
 números rojos, aparecerá\n\
-una Estrella oculta!"))
+una estrella oculta!"))
 
 DEFINE_DIALOG(DIALOG_054, 1, 6, 30, 200, _("\
 ¡Bienvenido al tobogán de\n\
@@ -785,31 +785,22 @@ demostrado que también\n\
 eres el más rápido!\n\
 No tengo presupuesto\n\
 para una medalla de oro,\n\
-pero toma, una Estrella.\n\
+pero toma, una estrella.\n\
 ¡Te la has ganado!"))
 
 DEFINE_DIALOG(DIALOG_057, 1, 6, 30, 200, _("\
 ¡Socorro! ¡Mi bebé! ¿Has\n\
 visto a mi bebé? ¡Es la\n\
 niña más preciosa del\n\
-mundo mundial! ¿Eh?\n\
-¿Que te la describa?\n\
+mundo mundial! Dicen que\n\
+tiene mi pico.\n\
 \n\
-¡Pero si te la acabo\n\
-de describir! ¡La más\n\
-guapa! ¿No te vale con\n\
-eso? Bueno, pues...\n\
-¡Tiene el pico igualito\n\
-al mío!\n\
-¿Que cómo se perdió?\n\
-A ver, a ver...\n\
-Me paré a por un arenque\n\
-y unos cubos de hielo...\n\
-y entonces...\n\
-\n\
-¡Ay! ¡No me acuerdo!\n\
-¡Tú búscala, por favor!\n\
-¡Seguro que la reconoces!"))
+No me acuerdo de dónde\n\
+la dejé... a ver...\n\
+me paré a por un arenque\n\
+y unos cubos de hielo y...\n\
+¡Ay! ¡No me acuerdo! ¡Tú\n\
+búscala, por favor!"))
 
 DEFINE_DIALOG(DIALOG_058, 1, 4, 30, 200, _("\
 ¡Has encontrado a mi\n\
@@ -817,7 +808,7 @@ preciada niña! ¿Dónde\n\
 has estado? ¿Cómo te lo\n\
 puedo agradecer, Mario?\n\
 Ahora que lo pienso,\n\
-tengo una... Estrella.\n\
+tengo una... estrella.\n\
 Te la daré, junto a mi\n\
 eterna gratitud."))
 
@@ -829,7 +820,7 @@ padres deben estar muy\n\
 preocupados!"))
 
 DEFINE_DIALOG(DIALOG_060, 1, 4, 30, 200, _("\
-¡Atención!\n\
+¡ATENCIÓN!\n\
 ¡Leer antes de bucear!\n\
 \n\
 \n\
@@ -879,7 +870,7 @@ Ni siquiera necesitarás\n\
 respirar si la llevas\n\
 puesta.\n\
 Pero tiene un defecto:\n\
-NO TE PERMITE NADAR."))
+No te permite nadar."))
 
 DEFINE_DIALOG(DIALOG_063, 1, 6, 30, 200, _("\
 La Gorra de Invisibilidad\n\
@@ -981,7 +972,7 @@ de lanzar a alguien como\n\
 YO! ¡Jamás! ¡Ja!"))
 
 DEFINE_DIALOG(DIALOG_068, 1, 5, 30, 200, _("\
-¡Estás en la Tierra de!\n\
+¡Estás en la Tierra de\n\
 Lava! Si te prendes fuego\n\
 o caes en una masa de\n\
 lava, ¡empezarás a botar\n\
@@ -1015,7 +1006,7 @@ pulsar Start para pausar,\n\
 y luego seleccionar\n\
 『Salir del nivel.』\n\
 No hace falta conseguir\n\
-todas las Estrellas de\n\
+todas las estrellas de\n\
 Poder en un mundo para\n\
 pasar al siguiente.\n\
 \n\
@@ -1025,7 +1016,7 @@ más experiencia, para\n\
 coger las que se te hagan\n\
 muy complicadas.\n\
 Cuando consigas una\n\
-Estrella y vuelvas a\n\
+estrella y vuelvas a\n\
 entrar al mundo,\n\
 aparecerá una pista\n\
 para la siguiente.\n\
@@ -1104,13 +1095,13 @@ Las puertas del castillo\n\
 que han sido selladas por\n\
 Bowser solo se pueden\n\
 abrir con el poder de\n\
-las Estrellas.\n\
+las estrellas.\n\
 Pero hay caminos ocultos\n\
 en el castillo, que Bowser\n\
 desconoce.\n\
 \n\
 \n\
-¡Encuentra las Estrellas\n\
+¡Encuentra las estrellas\n\
 ocultas, Mario! Te\n\
 ayudarán en tu misión.\n\
 ¡Por favor, Mario,\n\
@@ -1122,7 +1113,7 @@ prisión! ¡Por favor!"))
 
 DEFINE_DIALOG(DIALOG_076, 1, 6, 30, 200, _("\
 Gracias al poder de las\n\
-Estrellas, el castillo\n\
+estrellas, el castillo\n\
 empieza a volver a la\n\
 vida. Por favor, Mario,\n\
 ¡dale una lección a\n\
@@ -1300,7 +1291,7 @@ ves  que estoy\n\
 pasándomelo bien causando\n\
 caos con mis tropas?\n\
 Ya que estás aquí,\n\
-¡devuelve las Estrellas!\n\
+¡devuelve las estrellas!\n\
 ¡Mi ejército en las\n\
 paredes las necesitan!\n\
 ¡Ja ja ja ja!"))
@@ -1311,7 +1302,7 @@ Llegas justo a tiempo--\n\
 ¡Estaba buscando algo que\n\
 quemar con mi aliento de\n\
 fuego!\n\
-¡El poder de las Estrellas\n\
+¡El poder de las estrellas\n\
 es inútil contra mí!\n\
 ¡Todos tus amigos están\n\
 atrapados en las paredes!\n\
@@ -1349,8 +1340,8 @@ se permiten visitas a la\n\
 cima de la montaña.\n\
 Por tu propio bien,\n\
 ¡no despiertes a nadie!\n\
-a nadie! Vamos, que\n\
-camines despacio."))
+Vamos, que camines\n\
+despacito."))
 
 DEFINE_DIALOG(DIALOG_097, 1, 6, 30, 200, _("\
 ¡No dejes que te hagan\n\
@@ -1408,9 +1399,9 @@ la luz hallarás..."))
 DEFINE_DIALOG(DIALOG_104, 1, 6, 30, 200, _("\
 Esa estrella oscura que\n\
 tienes enfrente es un\n\
-『Marcador de Estrella.』\n\
+『Marcador de estrella.』\n\
 Cuando consigas 8 monedas\n\
-rojas, una Estrella\n\
+rojas, una estrella\n\
 aparecerá aquí."))
 
 DEFINE_DIALOG(DIALOG_105, 1, 4, 95, 200, _("\
@@ -1419,7 +1410,7 @@ DEFINE_DIALOG(DIALOG_105, 1, 4, 95, 200, _("\
 \n\
 \n\
 Puedes llegar a la\n\
-Estrella de la isla\n\
+estrella de la isla\n\
 flotante usando los\n\
 cañones.\n\
 Usa el stick de control\n\
@@ -1442,7 +1433,7 @@ Los fantasmas...\n\
 ¿Podrás salir de aquí...\n\
 ...con vida?"))
 
-DEFINE_DIALOG(DIALOG_108, 1, 2, 95, 200, _("\
+DEFINE_DIALOG(DIALOG_108, 1, 4, 95, 200, _("\
 ¡Bu! ¡Aquí llega el\n\
 maestro del caos el jefe,\n\
 del terror, el Gran Boo!,\n\
@@ -1555,10 +1546,10 @@ tropas podrían aprender\n\
 un par de cosas de ti!\n\
 Tal y como te prometí,\n\
 puedes quedarte con la\n\
-Estrella, Mario.\n\
+estrella, Mario.\n\
 Si quieres volverme a\n\
 ver, vuelve a seleccionar\n\
-esta Estrella desde el\n\
+esta estrella desde el\n\
 menú. Pero de momento,\n\
 he de despedirme."))
 
@@ -1581,7 +1572,7 @@ Nosotros... aplastados...\n\
 ¡Tú tan fuerte!\n\
 ¡Tú dominar pirámide!\n\
 Por hoy...\n\
-Ahora, toma la Estrella\n\
+Ahora, toma la estrella\n\
 Poderosa.\n\
 Nosotros... dormir...\n\
 ...oscuridad..."))
@@ -1591,7 +1582,7 @@ DEFINE_DIALOG(DIALOG_119, 1, 6, 30, 200, _("\
 subestimado. Esto no era\n\
 lo que había planeado.\n\
 ¡Pero sigo teniendo el\n\
-poder de las Estrellas,\n\
+poder de las estrellas,\n\
 y a Peach!\n\
 ¡Ja ja ja! ¡No vas a\n\
 quitarme más estrellas!\n\
@@ -1603,7 +1594,7 @@ pagarás, créeme!"))
 DEFINE_DIALOG(DIALOG_120, 1, 4, 30, 200, _("\
 ¡Ahhh! ¿de verdad he\n\
 vuelto a perder? El poder\n\
-de las Estrellas me ha\n\
+de las estrellas me ha\n\
 fallado... esta vez.\n\
 Considera esto un empate.\n\
 La próxima vez, estaré\n\
@@ -1675,12 +1666,12 @@ Izquierda:Mina abandonada\n\
 Un amable dragón de agua\n\
 vive aquí. Pisa su cabeza\n\
 con fuerza para que baje\n\
-la cabeza. Ciudado, no te\n\
+la cabeza. Cuidado, no te\n\
 conviertas en su almuerzo."))
 
 DEFINE_DIALOG(DIALOG_128, 1, 4, 95, 200, _("\
 ¡Debes luchar con honor!\n\
-Lanzar al adversario\n\
+¡Lanzar al adversario\n\
 fuera del campo de batalla\n\
 está prohibido!"))
 
@@ -1728,8 +1719,8 @@ triple salto, y cuando\n\
 quieras aterrizar, pulsa\n\
 [Z]\n\
 Mueve el stick de control\n\
-hacia detrás para\n\
-elevarte, y hacia detrás\n\
+hacia abajo para\n\
+elevarte, y hacia arriba\n\
 para descender, como si\n\
 controlases un avión."))
 
@@ -1751,13 +1742,13 @@ todo el mundo... estamos\n\
 atrapados dentro de las\n\
 paredes del castillo.\n\
 Bowser ha robado las\n\
-Estrellas del castillo, y\n\
+estrellas del castillo, y\n\
 está usando su poder para\n\
 crear su propio mundo\n\
 dentro de los cuadros y\n\
 las paredes.\n\
 ¡Por favor, recupera las\n\
-Estrellas de Poder!\n\
+estrellas de poder!\n\
 Cuando las encuentres,\n\
 podrás usar su poder para\n\
 abrir las puertas que\n\
@@ -1769,40 +1760,40 @@ unos Bob-omb. Es la única\n\
 sala que Bowser no ha\n\
 sellado.\n\
 Cuando consigas ocho\n\
-Estrellas, podrás abrir\n\
+estrellas, podrás abrir\n\
 la puerta con la estrella\n\
 grande. ¡Seguro que la\n\
 princesa está ahí!"))
 
 DEFINE_DIALOG(DIALOG_134, 1, 6, 30, 200, _("\
 Los nombres de las\n\
-Estrellas son pistas de\n\
+estrellas son pistas de\n\
 cómo encontrarlas. Puedes\n\
 verlas al entrar a cada\n\
 mundo.\n\
 \n\
 Puedes cogerlas en\n\
 cualquier orden, pero\n\
-hay ciertas Estrellas y\n\
+hay ciertas estrellas y\n\
 ciertos enemigos que solo\n\
 aparecerán si escoges\n\
-una Estrella concreta."))
+una estrella concreta."))
 
 DEFINE_DIALOG(DIALOG_135, 1, 6, 30, 200, _("\
 Fue Bowser quien robó las\n\
-Estrellas. ¡Le vi con\n\
+estrellas. ¡Le vi con\n\
 mis propios ojos!\n\
 \n\
 \n\
 \n\
 Ha escondido seis\n\
-Estrellas en cada mundo,\n\
+estrellas en cada mundo,\n\
 pero para coger algunas\n\
 de ellas, necesitarás\n\
 activar los botones\n\
 de las gorras.\n\
 Puedes comprobar qué\n\
-Estrellas has conseguido\n\
+estrellas has conseguido\n\
 al entrar a cada mundo.\n\
 \n\
 \n\
@@ -1810,7 +1801,7 @@ al entrar a cada mundo.\n\
 Si quieres volver a ver\n\
 a un enemigo que  ya has\n\
 derrotado, vuelve a\n\
-seleccionar su Estrella\n\
+seleccionar su estrella\n\
 al entrar al mundo\n\
 correspondiente."))
 
@@ -1856,7 +1847,7 @@ DEFINE_DIALOG(DIALOG_137, 1, 6, 30, 200, _("\
 ¡Gracias, Mario! La\n\
 energía del castillo se\n\
 restaura poco a poco\n\
-según consigues Estrellas\n\
+según consigues estrellas\n\
 de Poder, y has hecho\n\
 huir a Bowser.\n\
 Pero seguro que te está\n\
@@ -1897,7 +1888,7 @@ Flecha: Tu posición"))
 
 DEFINE_DIALOG(DIALOG_141, 1, 6, 150, 200, _("\
 ¡Has conseguido una de\n\
-las Estrellas de Poder\n\
+las estrellas de poder\n\
 robadas! Ahora puedes\n\
 abrir más puertas del\n\
 castillo.\n\
@@ -1912,11 +1903,11 @@ Las tropas de Bowser no\n\
 paran de crecer y ganar\n\
 poder, así que no bajes\n\
 la guardia, Mario. ¡Sigue\n\
-buscando Estrellas!"))
+buscando estrellas!"))
 
 DEFINE_DIALOG(DIALOG_142, 1, 6, 150, 200, _("\
 ¡Has recuperado tres\n\
-Estrellas de Poder! Ahora\n\
+estrellas de poder! Ahora\n\
 puedes abrir cualquier\n\
 puerta que tenga un 3\n\
 en la estrella.\n\
@@ -1924,25 +1915,24 @@ en la estrella.\n\
 Puedes entrar y salir\n\
 de los mundos disponibles\n\
 cuantas veces quieras.\n\
-¡Te esperan\n\
-enemigos cada vez más\n\
-poderosos, así que ten\n\
-cuidado!"))
+¡Te esperan enemigos\n\
+cada vez más fuertes,\n\
+así que ten cuidado!"))
 
 DEFINE_DIALOG(DIALOG_143, 1, 7, 150, 200, _("\
 ¡Has recuperado ocho\n\
-Estrellas de Poder!\n\
+estrellas de poder!\n\
 ¡Ahora puedes abrir la\n\
-puerta con la Estrella\n\
+puerta con la estrella\n\
 gigante! Pero Bowser\n\
 está cerca... ¿oyes\n\
 a la princesa llamándote?"))
 
 DEFINE_DIALOG(DIALOG_144, 1, 6, 150, 200, _("\
 ¡Has recuperado 30\n\
-Estrellas de Poder! Ahora\n\
+estrellas de poder! Ahora\n\
 puedes abrir la puerta\n\
-con la Estrella grande.\n\
+con la estrella grande.\n\
 Pero antes de eso: ¿qué\n\
 tal te está yendo?\n\
 ¿Has pisoteado las dos\n\
@@ -1959,9 +1949,9 @@ acorralado por fin?"))
 
 DEFINE_DIALOG(DIALOG_145, 1, 6, 150, 200, _("\
 ¡Has recuperado 50\n\
-Estrellas de Poder! Ahora\n\
+estrellas de poder! Ahora\n\
 puedes abrir la puerta de\n\
-la Estrella grande del\n\
+la estrella grande del\n\
 tercer piso. Bowser está\n\
 ahí, como ya sabes.\n\
 ¡Ah! Imagino que ya has\n\
@@ -1976,7 +1966,7 @@ delante."))
 
 DEFINE_DIALOG(DIALOG_146, 1, 6, 150, 200, _("\
 ¡Has encontrado 70\n\
-Estrellas de Poder! Ahora\n\
+estrellas de poder! Ahora\n\
 esas escaleras infinitas\n\
 de las que tanto presume\n\
 Bowser no son más que\n\
@@ -2027,7 +2017,7 @@ DEFINE_DIALOG(DIALOG_149, 1, 4, 30, 200, _("\
 secreto de la Princesa\n\
 Peach!\n\
 \n\
-Hay una Estrella oculta\n\
+Hay una estrella oculta\n\
 aquí que Bowser no pudo\n\
 encontrar.\n\
 \n\
@@ -2105,7 +2095,7 @@ de un cuadro, ¿verdad?"))
 
 DEFINE_DIALOG(DIALOG_155, 1, 6, 30, 200, _("\
 Gracias al poder de las\n\
-Estrellas, el castillo\n\
+estrellas, el castillo\n\
 empieza a volver a la\n\
 vida. Por favor, Mario,\n\
 ¡dale una lección a\n\
@@ -2185,12 +2175,13 @@ rendirme!\n\
 ¿Es cierto lo que dicen?\n\
 ¿De verdad has vencido a\n\
 Bowser? ¿Y has devuelto\n\
-las Estrellas al?\n\
+las estrellas al?\n\
 castillo?\n\
 ¡Sabía que podrías\n\
 hacerlo! Ahora tengo un\n\
 mensaje muy especial para\n\
 ti.\n\
+\n\
 『¡Gracias por jugar a\n\
 Super Mario 64! Este es\n\
 el final del juego, pero\n\
@@ -2211,7 +2202,7 @@ tarde! ¿Es que no te\n\
 importa?\n\
 Mira, no tengo tiempo de\n\
 estar peleando por unas\n\
-Estrellas. ¡No la estaba\n\
+estrellas. ¡No la estaba\n\
 intentando esconder!\n\
 Lo que pasa es que llevo\n\
 mucha prisa. Eso es todo.\n\

@@ -67,7 +67,6 @@ extern u8 gDemoInputs[];
 
 extern u16 sRenderingFramebuffer;
 extern u32 gGlobalTimer;
-extern u32 gTimerTimer;
 
 void setup_game_memory(void);
 void thread5_game_loop(UNUSED void *arg);

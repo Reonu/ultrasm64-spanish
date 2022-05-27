@@ -57,7 +57,7 @@
 #define BORDER_HEIGHT_EMULATOR 0
 #endif
 
-#define TEST_LEVEL LEVEL_BOB
+//#define TEST_LEVEL LEVEL_BOB
 //#define PEACH_SKIP
 #define DIALOG_BOX_WIDTH 132
 
