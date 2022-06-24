@@ -212,7 +212,7 @@
 /**
  * Ending Peach cutscene text.
  */
-#define TEXT_FILE_MARIO_EXCLAMATION _("TRADUCIDO POR DANIEL LEÓN")
+#define TEXT_FILE_MARIO_EXCLAMATION _("¡Mario!")
 #define TEXT_POWER_STARS_RESTORED __("El poder de las estrellas está volviendo al castillo...")
 #define TEXT_THANKS_TO_YOU __("...¡y es todo gracias a ti!")
 #define TEXT_THANK_YOU_MARIO __("¡Gracias, Mario!")
